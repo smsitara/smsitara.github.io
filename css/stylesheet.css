@@ -43,10 +43,10 @@ video {
 }
 
 .sitara {
-  background: url(../media/red-star.png) no-repeat center center;
-  background-size: 90%;
-  height: 376px;
-  width: 376px;
+  background: url(../media/sitara.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 192px;
+  width: 192px;
   display: inline-block;
   text-indent: -9999px;
   margin: auto;
