@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  color: #343a40;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus {
+   outline: none !important;
+   box-shadow: none !important;
+ }
+
+a {
+  text-decoration: none !important;
+}
+
+section {
+  min-height: 100%;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.bg-sitara {
+  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,1) 100%);
+}
+
+.bg-landing {
+  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
+  color: #fff;
+  position: relative;
+}
+
+.bg-landing a {
+  color: #fff;
+}
+
+.sitara {
+  background: url(../media/sitara.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 192px;
+  width: 192px;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: auto;
+}
+
+footer.bg-sitara a {
+  color: rgba(255,255,255,0.5);
+}
+
+footer.bg-sitara a:hover,
+footer.bg-sitara a:focus {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+}
+
+/*****************/
+/** Blink Style **/
+/*****************/
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
