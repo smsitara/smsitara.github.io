@@ -19,8 +19,9 @@ section {
   min-height: 100%;
 }
 
-video {
-  object-fit: cover;
+.crowd {
+  background: url(../media/crowd.jpeg) no-repeat center center;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -33,7 +34,7 @@ video {
 }
 
 .bg-landing {
-  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.75) 100%);
+  background: linear-gradient(145deg, rgba(110,71,250,1) 0%, rgba(191,89,172,0.50) 100%);
   color: #fff;
   position: relative;
 }
@@ -52,6 +53,24 @@ video {
   margin: auto;
 }
 
+.ios {
+  background: url(../media/iosand.png) no-repeat center top;
+}
+
+.android {
+  background: url(../media/iosand.png) no-repeat center bottom;
+}
+
+.app {
+  background-size: cover;
+  height: 32px;
+  width: 112px;
+  display: inline-block;
+  text-indent: -9999px;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+}
+
 footer.bg-sitara a {
   color: rgba(255,255,255,0.5);
 }
@@ -65,7 +84,7 @@ footer.bg-sitara a:focus {
 /*****************/
 /** Blink Style **/
 /*****************/
-.blink_me {
+.blink {
   animation: blinker 2s linear infinite;
 }
 
