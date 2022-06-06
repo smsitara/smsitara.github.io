@@ -71,6 +71,32 @@ section {
   border-radius: 0.25rem;
 }
 
+.cbro {
+  background: url(../media/cbro.jpg) no-repeat center center;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.bdia {
+  background: url(../media/bdia.jpg) no-repeat center center;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.goup {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
 footer.bg-sitara a {
   color: rgba(255,255,255,0.5);
 }
