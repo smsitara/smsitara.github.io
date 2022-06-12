@@ -44,7 +44,7 @@ section {
 }
 
 .sitara {
-  background: url(../media/sitara.jpeg) no-repeat center center;
+  background: url(../media/icon.jpg) no-repeat center center;
   background-size: cover;
   height: 192px;
   width: 192px;
@@ -94,7 +94,7 @@ section {
 .goup {
   position: fixed;
   right: 20px;
-  bottom: 10px;
+  bottom: 50%;
 }
 
 footer.bg-sitara a {
